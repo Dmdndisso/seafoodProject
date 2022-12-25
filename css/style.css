@@ -478,6 +478,10 @@ a {
 
 }
 
+
+
+
+
 @media (max-width: 1160px) {
     .product__name {
         width: 350px;
@@ -508,6 +512,9 @@ a {
         padding-right: 0;
         padding-left: 20px;
     } 
+    .header-content {
+        background-position: left;
+    }
 }
 
 @media (max-width: 1000px) {
@@ -662,7 +669,7 @@ a {
     .title {
         font-size: 60px;
         line-height: 70px;
-        padding: 192px 0 0 0;
+        padding: 237px 0 0 0;
         max-width: 100%;
         text-align: center;
     }
@@ -671,6 +678,13 @@ a {
     }
     .seafood__items {
         margin-bottom: 0;
+    }
+    .header-slider__text {
+        color: #fff;
+        font-weight: 900;
+    }
+    .header-content {
+        margin-top: -187px;
     }
 }
 
@@ -718,6 +732,7 @@ a {
     .header-slider__text {
         font-size: 14px;
         line-height: 18px;
+        color: lightyellow;
     }
     .product__content-btn {
         padding: 12px 55px;
@@ -735,7 +750,8 @@ a {
 
 @media (max-width: 370px) {
     .title {
-        padding-top: 125px;
+        padding-top: 168px;
+        margin-bottom: 36px;
     } 
     .phone {
         margin-right: 0;
@@ -758,6 +774,9 @@ a {
         width: 70%;
     }
     .logo {
-        padding-bottom: 60px;
-    }       
+        padding-bottom: 0;
+    }  
+    .header-content {
+        margin-top: -134px;
+    }     
 }
